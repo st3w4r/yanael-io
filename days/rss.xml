@@ -1,632 +1,632 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Day-to-day on Yanaël Barbier</title><link>https://yanael.io/days/</link><description>Recent content in Day-to-day on Yanaël Barbier</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yanael.io/days/rss.xml" rel="self" type="application/rss+xml"/><item><title>Learning Machine Learning</title><link>https://yanael.io/days/ml/</link><pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate><guid>https://yanael.io/days/ml/</guid><description>&lt;p>Machine Learning and Deep Learning are trendy topics and it is a promising area. As a Software Engineer, it&amp;rsquo;s identified as a Data Scientist subject but it sounded so cool that I decided to dig it. Here are my day-to-day notes on this long journey to master the field.&lt;/p>
-&lt;hr>
-&lt;p>&lt;a href="https://yanael.io/days/ml/#2020-03-17">march 2020&lt;/a>&lt;br>
-&lt;a href="https://yanael.io/days/ml/#2020-04-01">april 2020&lt;/a>&lt;br>
-&lt;a href="https://yanael.io/days/ml/#2020-04-30">latest&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="2020-03-17">&lt;a href="https://yanael.io/days/ml/#2020-03-17">2020-03-17&lt;/a>&lt;/h2>
-&lt;p>Hello world for CNNs, make a simple network that predicts the MNIST digits&lt;/p>
-&lt;p>&lt;a href="https://keras.io/examples/vision/mnist_convnet/">https://keras.io/examples/mnist_cnn/&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>check out how the model is built after you compile it with: model.summary()&lt;/li>
-&lt;li>try changing a few parameters in the model and check out how it looks now&lt;/li>
-&lt;li>when you train the model, change some of the factors like: batch_size, epochs and learning rate&lt;/li>
-&lt;li>print out how the data looks for the different pre-processing steps&lt;/li>
-&lt;li>Start lesson 1 &lt;a href="http://fast.ai">fast.ai&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-18">&lt;a href="https://yanael.io/days/ml/#2020-03-18">2020-03-18&lt;/a>&lt;/h2>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Continue &lt;a href="https://course19.fast.ai/videos/?lesson=1">lesson 1 fast.ai&lt;/a>&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Train model on MNIST dataset&lt;/li>
-&lt;/ul>
-&lt;p>I have seen how to download a dataset, how to create a DataLoaders and how to train a pre-trained model.&lt;/p>
-&lt;p>In the learner, I see different types of layers: Conv2d, BatchNorm2d, ReLU, MaxPool2d, etc.&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What does freeze and unfreeze?&lt;/li>
-&lt;li>What&amp;rsquo;s a kernel?&lt;/li>
-&lt;li>What&amp;rsquo;s a sequential model?&lt;/li>
-&lt;li>What does each layer do?&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-19">&lt;a href="https://yanael.io/days/ml/#2020-03-19">2020-03-19&lt;/a>&lt;/h2>
-&lt;p>Try to tweak a model.&lt;br>
-Read the documentation, and discover the simple model creation.&lt;br>
-The list of definitions: &lt;a href="https://deepai.org/definitions">https://deepai.org/definitions&lt;/a>&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What&amp;rsquo;s a kernel?&lt;br>
-Use to map a non-linear problem to a linear methods&lt;/li>
-&lt;li>What&amp;rsquo;s the stride?&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Day-to-day on Yanaël Barbier</title><link>https://yanael.io/days/</link><description>Recent content in Day-to-day on Yanaël Barbier</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yanael.io/days/rss.xml" rel="self" type="application/rss+xml"/><item><title>Learning Machine Learning</title><link>https://yanael.io/days/ml/</link><pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate><guid>https://yanael.io/days/ml/</guid><description>&lt;p&gt;Machine Learning and Deep Learning are trendy topics and it is a promising area. As a Software Engineer, it&amp;rsquo;s identified as a Data Scientist subject but it sounded so cool that I decided to dig it. Here are my day-to-day notes on this long journey to master the field.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-17"&gt;march 2020&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://yanael.io/days/ml/#2020-04-01"&gt;april 2020&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://yanael.io/days/ml/#2020-04-30"&gt;latest&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2020-03-17"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-17"&gt;2020-03-17&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Hello world for CNNs, make a simple network that predicts the MNIST digits&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://keras.io/examples/vision/mnist_convnet/"&gt;https://keras.io/examples/mnist_cnn/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;check out how the model is built after you compile it with: model.summary()&lt;/li&gt;
+&lt;li&gt;try changing a few parameters in the model and check out how it looks now&lt;/li&gt;
+&lt;li&gt;when you train the model, change some of the factors like: batch_size, epochs and learning rate&lt;/li&gt;
+&lt;li&gt;print out how the data looks for the different pre-processing steps&lt;/li&gt;
+&lt;li&gt;Start lesson 1 &lt;a href="http://fast.ai"&gt;fast.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-18"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-18"&gt;2020-03-18&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Continue &lt;a href="https://course19.fast.ai/videos/?lesson=1"&gt;lesson 1 fast.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Train model on MNIST dataset&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have seen how to download a dataset, how to create a DataLoaders and how to train a pre-trained model.&lt;/p&gt;
+&lt;p&gt;In the learner, I see different types of layers: Conv2d, BatchNorm2d, ReLU, MaxPool2d, etc.&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What does freeze and unfreeze?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s a kernel?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s a sequential model?&lt;/li&gt;
+&lt;li&gt;What does each layer do?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-19"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-19"&gt;2020-03-19&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Try to tweak a model.&lt;br&gt;
+Read the documentation, and discover the simple model creation.&lt;br&gt;
+The list of definitions: &lt;a href="https://deepai.org/definitions"&gt;https://deepai.org/definitions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s a kernel?&lt;br&gt;
+Use to map a non-linear problem to a linear methods&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s the stride?&lt;br&gt;
 Modify the amount of movement over the image.
-If stride set to 1 the filter will move one pixel or unit at a time.&lt;br>
-&lt;a href="https://deepai.org/machine-learning-glossary-and-terms/stride">https://deepai.org/machine-learning-glossary-and-terms/stride&lt;/a>&lt;/li>
-&lt;li>What is an epoch? Cycles through all the data&lt;/li>
-&lt;li>What are callbacks in the training loop for?
-&lt;ul>
-&lt;li>Used to tweak the training loop at different stages: after epoch, after loss, before validate, etc&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>What&amp;rsquo;s one cycle?
-&lt;ul>
-&lt;li>&lt;a href="https://fastai1.fast.ai/callbacks.one_cycle.html#The-1cycle-policy">What is 1cycle?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1803.09820.pdf">A disciplined approach to neural network hyper-parameters: Part 1 &amp;ndash; learning rate, batch size, momentum, and weight decay&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>What&amp;rsquo;s the learning rate per iterations&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-20">&lt;a href="https://yanael.io/days/ml/#2020-03-20">2020-03-20&lt;/a>&lt;/h2>
-&lt;p>Read more documentation about the &lt;a href="https://docs.fast.ai/callback.core.html">callbacks&lt;/a>, the callback makes it easy to add new functionalities to the training loop.&lt;/p>
-&lt;p>Read about the learning rate.&lt;/p>
-&lt;p>&lt;a href="https://www.jeremyjordan.me/nn-learning-rate/">Setting the learning rate of your neural network&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>A small learning rate will require many updates before reaching the minimum point&lt;/li>
-&lt;li>Optimal learning rate swiftly reaches the minimum point&lt;/li>
-&lt;li>Too large learning rate will cause drastic updates which lead to divergent behaviors&lt;/li>
-&lt;/ul>
-&lt;p>Test all three phases to discover the optimal learning rate range.&lt;/p>
-&lt;p>&lt;a href="https://arxiv.org/abs/1712.09913">Visualizing the Loss Landscape of Neural Nets&lt;/a> (Paper)&lt;/p>
-&lt;p>&lt;a href="https://arxiv.org/abs/1506.01186">Cyclical Learning Rates for Training Neural Networks&lt;/a> (Paper)&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What&amp;rsquo;s a hyper-parameter?&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-21">&lt;a href="https://yanael.io/days/ml/#2020-03-21">2020-03-21&lt;/a>&lt;/h2>
-&lt;p>I have watched videos of &lt;a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">Three Blue One Brown&lt;/a> about Neural Networks.&lt;/p>
-&lt;p>A great method to train a model is the one-cycle method.&lt;/p>
-&lt;p>&lt;a href="https://arxiv.org/abs/1803.09820">A disciplined approach to neural network hyper-parameters&lt;/a> (&lt;a href="https://arxiv.org/pdf/1803.09820.pdf">Paper&lt;/a>)&lt;/p>
-&lt;p>ReLU (Rectified Linear Unit) is an activation function.&lt;/p>
-&lt;p>Question:&lt;/p>
-&lt;ul>
-&lt;li>How does ReLU work behind the scene?
-&lt;a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks)">Rectifier (neural networks)&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Train a model with a custom dataset&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-22">&lt;a href="https://yanael.io/days/ml/#2020-03-22">2020-03-22&lt;/a>&lt;/h2>
-&lt;p>I have trained a model with my own dataset. I have to clean up the top losses data, Fastai provides a class to do that. Load the new data and retrain the model.&lt;/p>
-&lt;p>I have to export the model, it creates a pickle file &lt;code>.pkl&lt;/code>&lt;/p>
-&lt;p>This file contains the model, the weights, metadata like the classes or the transforms&lt;/p>
-&lt;p>I have built a small program that takes this file and loads it with Fastai and returns the prediction on custom images.&lt;/p>
-&lt;p>Now I have a good idea of how to export a model and run it into production.&lt;/p>
-&lt;p>&amp;ldquo;Inference&amp;rdquo; is the name of the prediction process.&lt;/p>
-&lt;p>Learning rate too high -&amp;gt; The validation loss will be high&lt;/p>
-&lt;p>Learning rate too low the error rate will decrease very slowly between epochs. An indication is the training loss will be higher than the validation loss&lt;/p>
-&lt;p>To recognize if a model is starting over fitting is only if the error rate starts to be worth than the previous epochs. Not about training loss lower than validation loss.&lt;/p>
-&lt;p>Tensor with 3 dimensions for a colored image.&lt;/p>
-&lt;p>Visualize &lt;a href="http://matrixmultiplication.xyz">Matrix Multiplication&lt;/a>&lt;/p>
-&lt;p>Acronyms:&lt;/p>
-&lt;ul>
-&lt;li>SGD: Stochastic Gradient Descent&lt;/li>
-&lt;li>MSE: Mean Squared Error&lt;/li>
-&lt;/ul>
-&lt;p>Learning linear regression and the derivative is useful to understand how loss calculation works.&lt;/p>
-&lt;p>To calculate the gradient descent in practice, we use mini-batches instead of calculating the whole batch.&lt;/p>
-&lt;p>Vocabulary:&lt;/p>
-&lt;ul>
-&lt;li>Learning rate&lt;br>
-Multiple the gradian by.&lt;/li>
-&lt;li>Epoch&lt;br>
-One complete run all over the data point (image, &amp;hellip;)&lt;br>
-E.g. if 1K images, mini-batch is 100 it will take 10 iterations to see every image once, for 1 epoch.&lt;br>
-Too many times looking at the same image can lead to overfitting.&lt;/li>
-&lt;li>Minibatch&lt;br>
-Random data points to update the weights.&lt;/li>
-&lt;li>SGD&lt;br>
-Stochastic Gradient Decent using mini-batches&lt;/li>
-&lt;li>Model / Architecture&lt;br>
-Functions&lt;/li>
-&lt;li>Parameters&lt;br>
-Coefficient → Weights&lt;/li>
-&lt;li>Loss function&lt;br>
-How far away or close you are from the correct answer.&lt;/li>
-&lt;/ul>
-&lt;p>To sharpen your math understanding&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=q6DGVGJ1WP4">There&amp;rsquo;s no such thing as &amp;ldquo;not a math person&amp;rdquo;&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.khanacademy.org/">Khan Academy&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://www.fast.ai/2017/11/13/validation-sets/">How (and why) to create a good validation set&lt;/a>&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What&amp;rsquo;s gradient?&lt;/li>
-&lt;li>What&amp;rsquo;s a tensor?&lt;/li>
-&lt;li>How to embed the model into an application?&lt;/li>
-&lt;/ul>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Export the model&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Embed the model into a python script to process one image&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-23">&lt;a href="https://yanael.io/days/ml/#2020-03-23">2020-03-23&lt;/a>&lt;/h2>
-&lt;p>Today learning about computer vision and image processing.&lt;/p>
-&lt;ul>
-&lt;li>A black and white image is a bunch of numbers representing the grayscale.&lt;/li>
-&lt;li>A colored image has 3 dimensions, named channels represented as a rank 3 tensor.&lt;/li>
-&lt;li>3D tensor (red, green, blue)&lt;/li>
-&lt;li>A tensor is an array with a regular shape, where every row is the same length and every column is the same length. Mathematically, we always go with number of rows by the number of columns.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Rank:&lt;/strong> How many dimensions are there. Colored image has a rank of 3.&lt;/p>
-&lt;p>&lt;a href="https://distill.pub/2020/grand-tour/">Visualize Neural Networks&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>&lt;a href="https://github.com/fastai/numerical-linear-algebra/blob/master/README.md">Computational Linear Algebra for Coders&lt;/a>&lt;/p>
-&lt;p>Linear Function:&lt;/p>
-&lt;pre tabindex="0">&lt;code>y = ax+b
-&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>x, y are the coordinates of any point on the line
+If stride set to 1 the filter will move one pixel or unit at a time.&lt;br&gt;
+&lt;a href="https://deepai.org/machine-learning-glossary-and-terms/stride"&gt;https://deepai.org/machine-learning-glossary-and-terms/stride&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What is an epoch? Cycles through all the data&lt;/li&gt;
+&lt;li&gt;What are callbacks in the training loop for?
+&lt;ul&gt;
+&lt;li&gt;Used to tweak the training loop at different stages: after epoch, after loss, before validate, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s one cycle?
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://fastai1.fast.ai/callbacks.one_cycle.html#The-1cycle-policy"&gt;What is 1cycle?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1803.09820.pdf"&gt;A disciplined approach to neural network hyper-parameters: Part 1 &amp;ndash; learning rate, batch size, momentum, and weight decay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s the learning rate per iterations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-20"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-20"&gt;2020-03-20&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Read more documentation about the &lt;a href="https://docs.fast.ai/callback.core.html"&gt;callbacks&lt;/a&gt;, the callback makes it easy to add new functionalities to the training loop.&lt;/p&gt;
+&lt;p&gt;Read about the learning rate.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.jeremyjordan.me/nn-learning-rate/"&gt;Setting the learning rate of your neural network&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A small learning rate will require many updates before reaching the minimum point&lt;/li&gt;
+&lt;li&gt;Optimal learning rate swiftly reaches the minimum point&lt;/li&gt;
+&lt;li&gt;Too large learning rate will cause drastic updates which lead to divergent behaviors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Test all three phases to discover the optimal learning rate range.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1712.09913"&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt; (Paper)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1506.01186"&gt;Cyclical Learning Rates for Training Neural Networks&lt;/a&gt; (Paper)&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s a hyper-parameter?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-21"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-21"&gt;2020-03-21&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I have watched videos of &lt;a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"&gt;Three Blue One Brown&lt;/a&gt; about Neural Networks.&lt;/p&gt;
+&lt;p&gt;A great method to train a model is the one-cycle method.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1803.09820"&gt;A disciplined approach to neural network hyper-parameters&lt;/a&gt; (&lt;a href="https://arxiv.org/pdf/1803.09820.pdf"&gt;Paper&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;ReLU (Rectified Linear Unit) is an activation function.&lt;/p&gt;
+&lt;p&gt;Question:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How does ReLU work behind the scene?
+&lt;a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks)"&gt;Rectifier (neural networks)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Train a model with a custom dataset&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-22"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-22"&gt;2020-03-22&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I have trained a model with my own dataset. I have to clean up the top losses data, Fastai provides a class to do that. Load the new data and retrain the model.&lt;/p&gt;
+&lt;p&gt;I have to export the model, it creates a pickle file &lt;code&gt;.pkl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This file contains the model, the weights, metadata like the classes or the transforms&lt;/p&gt;
+&lt;p&gt;I have built a small program that takes this file and loads it with Fastai and returns the prediction on custom images.&lt;/p&gt;
+&lt;p&gt;Now I have a good idea of how to export a model and run it into production.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Inference&amp;rdquo; is the name of the prediction process.&lt;/p&gt;
+&lt;p&gt;Learning rate too high -&amp;gt; The validation loss will be high&lt;/p&gt;
+&lt;p&gt;Learning rate too low the error rate will decrease very slowly between epochs. An indication is the training loss will be higher than the validation loss&lt;/p&gt;
+&lt;p&gt;To recognize if a model is starting over fitting is only if the error rate starts to be worth than the previous epochs. Not about training loss lower than validation loss.&lt;/p&gt;
+&lt;p&gt;Tensor with 3 dimensions for a colored image.&lt;/p&gt;
+&lt;p&gt;Visualize &lt;a href="http://matrixmultiplication.xyz"&gt;Matrix Multiplication&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Acronyms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SGD: Stochastic Gradient Descent&lt;/li&gt;
+&lt;li&gt;MSE: Mean Squared Error&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learning linear regression and the derivative is useful to understand how loss calculation works.&lt;/p&gt;
+&lt;p&gt;To calculate the gradient descent in practice, we use mini-batches instead of calculating the whole batch.&lt;/p&gt;
+&lt;p&gt;Vocabulary:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning rate&lt;br&gt;
+Multiple the gradian by.&lt;/li&gt;
+&lt;li&gt;Epoch&lt;br&gt;
+One complete run all over the data point (image, &amp;hellip;)&lt;br&gt;
+E.g. if 1K images, mini-batch is 100 it will take 10 iterations to see every image once, for 1 epoch.&lt;br&gt;
+Too many times looking at the same image can lead to overfitting.&lt;/li&gt;
+&lt;li&gt;Minibatch&lt;br&gt;
+Random data points to update the weights.&lt;/li&gt;
+&lt;li&gt;SGD&lt;br&gt;
+Stochastic Gradient Decent using mini-batches&lt;/li&gt;
+&lt;li&gt;Model / Architecture&lt;br&gt;
+Functions&lt;/li&gt;
+&lt;li&gt;Parameters&lt;br&gt;
+Coefficient → Weights&lt;/li&gt;
+&lt;li&gt;Loss function&lt;br&gt;
+How far away or close you are from the correct answer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To sharpen your math understanding&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=q6DGVGJ1WP4"&gt;There&amp;rsquo;s no such thing as &amp;ldquo;not a math person&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.khanacademy.org/"&gt;Khan Academy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.fast.ai/2017/11/13/validation-sets/"&gt;How (and why) to create a good validation set&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s gradient?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s a tensor?&lt;/li&gt;
+&lt;li&gt;How to embed the model into an application?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Export the model&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Embed the model into a python script to process one image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-23"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-23"&gt;2020-03-23&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Today learning about computer vision and image processing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A black and white image is a bunch of numbers representing the grayscale.&lt;/li&gt;
+&lt;li&gt;A colored image has 3 dimensions, named channels represented as a rank 3 tensor.&lt;/li&gt;
+&lt;li&gt;3D tensor (red, green, blue)&lt;/li&gt;
+&lt;li&gt;A tensor is an array with a regular shape, where every row is the same length and every column is the same length. Mathematically, we always go with number of rows by the number of columns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rank:&lt;/strong&gt; How many dimensions are there. Colored image has a rank of 3.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://distill.pub/2020/grand-tour/"&gt;Visualize Neural Networks&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="https://github.com/fastai/numerical-linear-algebra/blob/master/README.md"&gt;Computational Linear Algebra for Coders&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Linear Function:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;y = ax+b
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;x, y are the coordinates of any point on the line
 a is the slope of the line
 b is the y-intercept (where the line crosses the y-axis)
-&lt;/code>&lt;/pre>&lt;h2 id="2020-03-24">&lt;a href="https://yanael.io/days/ml/#2020-03-24">2020-03-24&lt;/a>&lt;/h2>
-&lt;p>&lt;a href="https://course19.fast.ai/videos/?lesson=2">Fast.ai Lesson 2&lt;/a> at &lt;a href="https://youtu.be/ccMHJeQU4Qw?t=5241">Linear Regression Problem&lt;/a>&lt;/p>
-&lt;p>Find the parameters to minimize the error. For a regression problem, the error function a.k.a &lt;strong>loss function&lt;/strong> MSE is a common one.&lt;/p>
-&lt;p>Mean Squared Error → MSE, also RMSE → Root Mean Squared Error&lt;/p>
-&lt;p>MSE is the loss, the difference between predictions and the actual number.&lt;/p>
-&lt;h2 id="2020-03-25">&lt;a href="https://yanael.io/days/ml/#2020-03-25">2020-03-25&lt;/a>&lt;/h2>
-&lt;p>Continue the calculation of the SGD.&lt;/p>
-&lt;p>Create mini batch to don&amp;rsquo;t train on the whole dataset each time before updating the weights.&lt;/p>
-&lt;h2 id="2020-03-26">&lt;a href="https://yanael.io/days/ml/#2020-03-26">2020-03-26&lt;/a>&lt;/h2>
-&lt;p>Starting &lt;a href="https://course19.fast.ai/videos/?lesson=3">lesson 3&lt;/a> about data blocks, multi-label, classification, and segmentation.&lt;/p>
-&lt;p>&lt;code>thresh&lt;/code> is used in case we have multiple labels.&lt;/p>
-&lt;p>Python &lt;code>partial&lt;/code> is used to create a function with a specific parameter.&lt;/p>
-&lt;p>Use small images to experiment more quicker.&lt;/p>
-&lt;p>Segmentation creates a labialization pixel per pixel.&lt;/p>
-&lt;ul>
-&lt;li>Difference between online and offline ML
-&lt;ul>
-&lt;li>Offline: Static dataset&lt;/li>
-&lt;li>Online: Continuously train when the data comes in. a.k.a incremental learning&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-27">&lt;a href="https://yanael.io/days/ml/#2020-03-27">2020-03-27&lt;/a>&lt;/h2>
-&lt;p>Using progressive resizing to train the model.&lt;/p>
-&lt;p>If underfitting, train longer, train last part reduce learning rate, decrease regularization.&lt;/p>
-&lt;p>U-Net for segmentation training&lt;/p>
-&lt;p>Learning rate should be high at the begging and reduce after. Don&amp;rsquo;t be locked in to find the smallest.&lt;/p>
-&lt;p>After each linear regression use an activation function.&lt;br>
-The sigmoid is not used anymore.&lt;br>
-Mostly used now:&lt;br>
-ReLU: Rectified Linear Unit → ReLU activation&lt;br>
-&lt;code>max(x,0)&lt;/code>&lt;/p>
-&lt;p>&lt;a href="http://neuralnetworksanddeeplearning.com/chap4.html">A visual proof that neural nets can compute any function&lt;/a>&lt;br>
-&lt;a href="https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6">Activation Functions in Neural Networks&lt;/a>&lt;/p>
-&lt;p>Imagenet expect 3 channels, if we have only 2 channels we can create a new channel set as 0.&lt;/p>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>Practice data block API&lt;/li>
-&lt;li>Multi label classification&lt;/li>
-&lt;li>Segmentation&lt;/li>
-&lt;li>NLP classification&lt;/li>
-&lt;li>Implement MSE&lt;/li>
-&lt;li>Practice ReLU&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-29">&lt;a href="https://yanael.io/days/ml/#2020-03-29">2020-03-29&lt;/a>&lt;/h2>
-&lt;p>Watched the videos of &lt;a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">3blue1brown - Essence of linear algebra&lt;/a> about linear algebra, vector, linear transformation, matrix multiplication.&lt;/p>
-&lt;p>Now working on fastai and data blocks API.&lt;/p>
-&lt;p>What&amp;rsquo;s the normalization imagenet_stats&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What&amp;rsquo;s BatchNorm2d&lt;/li>
-&lt;li>What&amp;rsquo;s dropout&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-03-31">&lt;a href="https://yanael.io/days/ml/#2020-03-31">2020-03-31&lt;/a>&lt;/h2>
-&lt;p>Working with Fastai library, and practice the data block API.&lt;/p>
-&lt;p>I read some articles &lt;a href="https://machinelearningmastery.com/linear_algebra_for_machine_learning/">Basics of Linear Algebra for Machine Learning&lt;/a> super valuable, he advises the top-down approach and prevents mistakes of what beginners do. They learn math too early in the ML journey.&lt;/p>
-&lt;p>ResNet solve the vanishing gradient&lt;/p>
-&lt;p>Article: &lt;a href="https://towardsdatascience.com/deep-convolutional-neural-networks-ccf96f830178">Deep Convolutional Neural Networks&lt;/a>&lt;/p>
-&lt;p>CNN: Convolutional Neural Network&lt;/p>
-&lt;p>Question:&lt;/p>
-&lt;ul>
-&lt;li>What&amp;rsquo;s a convolution?&lt;br>
-Convolution operation consists on passing a kernel over an input volume.&lt;br>
-Used to capture features.&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-01">&lt;a href="https://yanael.io/days/ml/#2020-04-01">2020-04-01&lt;/a>&lt;/h2>
-&lt;p>Want to work with a segmentation dataset, importing this COCO datasets &lt;a href="http://cocodataset.org/">http://cocodataset.org/&lt;/a>&lt;/p>
-&lt;p>Train the model.&lt;/p>
-&lt;p>Python division with two slashes to do integer division &lt;code>10//3 = 3&lt;/code>&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What&amp;rsquo;s a mask exactly?&lt;/li>
-&lt;li>How to create a fallback in an image classification? If not detected go to the fallback case, should we implement that post classification based on the minimum score?&lt;/li>
-&lt;li>What&amp;rsquo;s the segmentation used for? Advantage?&lt;/li>
-&lt;li>How to evaluate the memory footprint to guess the batch size?&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-02">&lt;a href="https://yanael.io/days/ml/#2020-04-02">2020-04-02&lt;/a>&lt;/h2>
-&lt;p>I continue to train on CamVid.&lt;/p>
-&lt;p>Question:&lt;/p>
-&lt;ul>
-&lt;li>What unet is?&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-05">&lt;a href="https://yanael.io/days/ml/#2020-04-05">2020-04-05&lt;/a>&lt;/h2>
-&lt;p>Working on segmentation, based on the camvid tiny dataset.&lt;/p>
-&lt;p>I&amp;rsquo;m exploring the mask and the function to display it. It call an external library and the convert mode is used to display different color based on the value in the image. The value does not represent an RGB value.&lt;/p>
-&lt;p>I check the min value and the max value in the tensor&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>torch&lt;span style="color:#f92672">.&lt;/span>min(mask&lt;span style="color:#f92672">.&lt;/span>data)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>torch&lt;span style="color:#f92672">.&lt;/span>max(mask&lt;span style="color:#f92672">.&lt;/span>data)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>I expect it should match the number of codes I have in my dataset.&lt;/p>
-&lt;p>It will depend on the image, not on all the images we have all the things in the label.
-I will check how many different value I have in my dataset instead min and max.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>len(np&lt;span style="color:#f92672">.&lt;/span>unique(mask&lt;span style="color:#f92672">.&lt;/span>data))
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now it make sense, I can discover all the things I have in the images based on the mask code.&lt;/p>
-&lt;p>I trained the model, still learning about the learning rate and the plot loss.&lt;/p>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>Train a model with one class only&lt;/li>
-&lt;li>Prepare a small dataset with multi classes&lt;/li>
-&lt;li>Train my model on the COCO datasets.&lt;/li>
-&lt;/ul>
-&lt;p>Starting fast.ai lesson 4&lt;/p>
-&lt;p>NLP:
-Legal Text classifier with univeral model fine tuning.&lt;/p>
-&lt;p>&lt;a href="https://www.aclweb.org/anthology/P18-1031.pdf">Universal Language Model Fine-tuning for Text Classification (paper)&lt;/a>&lt;/p>
-&lt;p>NLP use transfer learning, use pre trained Language model from wikipedia Wikitext.&lt;/p>
-&lt;p>Language model → Specific language model → Classifier&lt;br>
-Self supervised learning&lt;/p>
-&lt;p>Collaborative filtering:&lt;br>
-&lt;a href="https://en.wikipedia.org/wiki/Sparse_matrix">Sparse matrix&lt;/a> storage&lt;br>
-Cold start problem, to solve use a metadata model&lt;/p>
-&lt;p>Terms:&lt;br>
-&lt;strong>Parameters/weights&lt;/strong> → Number inside the matrices&lt;br>
-&lt;strong>Activations&lt;/strong> → Result of the calculation (Result of matrix multiply or activation function)&lt;br>
-&lt;strong>Layers&lt;/strong> → Each step of the computation&lt;br>
-&lt;strong>Input&lt;/strong> → Entry point&lt;br>
-&lt;strong>Output&lt;/strong> → Result&lt;/p>
-&lt;p>Common to have a sigmoid at the last layer, to have an output between 2 values&lt;/p>
-&lt;p>Loss function compare the result with the last layer.&lt;/p>
-&lt;h2 id="2020-04-06">&lt;a href="https://yanael.io/days/ml/#2020-04-06">2020-04-06&lt;/a>&lt;/h2>
-&lt;p>Training on the head poses dataset.&lt;/p>
-&lt;p>Data augmentation can help generate more data for the training set.&lt;/p>
-&lt;h2 id="2020-04-08">&lt;a href="https://yanael.io/days/ml/#2020-04-08">2020-04-08&lt;/a>&lt;/h2>
-&lt;p>Working with tabular data today.&lt;/p>
-&lt;ul>
-&lt;li>Continuous: Represents values without limits, like age.&lt;/li>
-&lt;li>Categorical: Limited to a small set of possibilities.&lt;/li>
-&lt;/ul>
-&lt;p>For categorical data, we will use embeddings.&lt;/p>
-&lt;p>A processor, similar to transformations in computer vision, will be used, but it&amp;rsquo;s applied beforehand.&lt;/p>
-&lt;p>The validation set should be a contiguous group of items.&lt;/p>
-&lt;h2 id="2020-04-10">&lt;a href="https://yanael.io/days/ml/#2020-04-10">2020-04-10&lt;/a>&lt;/h2>
-&lt;p>Regarding Collaborative Learning, what is the difference between Embedding NN and Embedding Dot Bias?&lt;/p>
-&lt;p>Will fastai keep the better parameters of the training when we change the learning rate?&lt;/p>
-&lt;p>How are columns selected in CollabDataBunch?&lt;/p>
-&lt;p>What is PCA?&lt;/p>
-&lt;p>Calculate the loss with RMSE (Root Mean Squared Error).&lt;/p>
-&lt;h2 id="2020-04-11">&lt;a href="https://yanael.io/days/ml/#2020-04-11">2020-04-11&lt;/a>&lt;/h2>
-&lt;p>I&amp;rsquo;m watching a &lt;a href="https://www.youtube.com/watch?v=iaSUYvmCekI&amp;amp;list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&amp;amp;index=3">course from MIT&lt;/a> about computer vision CNNs.&lt;/p>
-&lt;p>Layers:&lt;/p>
-&lt;ul>
-&lt;li>Conv&lt;/li>
-&lt;li>Relu&lt;/li>
-&lt;li>MaxPooling: Takes the maximum value in the window&lt;/li>
-&lt;/ul>
-&lt;p>Apply layers to match the depth of the neural network.&lt;/p>
-&lt;p>Convolution:&lt;/p>
-&lt;ul>
-&lt;li>Applying a window of weights&lt;/li>
-&lt;li>Computing linear combinations&lt;/li>
-&lt;li>Activating with a nonlinear function&lt;/li>
-&lt;/ul>
-&lt;p>Depth: h x w x d&lt;/p>
-&lt;p>Create a feature map.&lt;/p>
-&lt;p>Non-Linear Activation:&lt;/p>
-&lt;ul>
-&lt;li>Applying activation function: ReLU &lt;code>max(0,z)&lt;/code>. Values lower than zero are set to 0; values greater than 0 remain unchanged.&lt;/li>
-&lt;/ul>
-&lt;p>Pooling:&lt;/p>
-&lt;ul>
-&lt;li>Takes the maximum value of the patch, shrinking the image&lt;/li>
-&lt;li>Patch&lt;/li>
-&lt;/ul>
-&lt;p>CNN:&lt;/p>
-&lt;ul>
-&lt;li>Feature Learning&lt;/li>
-&lt;li>Classification&lt;/li>
-&lt;/ul>
-&lt;p>Tensorflow provides a &lt;a href="http://playground.tensorflow.org/">playground&lt;/a> tool.&lt;/p>
-&lt;p>The playground is pretty nice; you can better understand the learning rate, see the impact of the activation function, and observe the effects of noise and batch size.&lt;/p>
-&lt;p>&lt;a href="https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch">Create a COCO dataset from scratch&lt;/a>&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What if we don&amp;rsquo;t include an activation layer like ReLU?&lt;/li>
-&lt;li>What is Softmax?&lt;/li>
-&lt;li>What is the &amp;lsquo;wd&amp;rsquo; parameter? Weight Decay is a hyperparameter, as explained in this &lt;a href="https://towardsdatascience.com/this-thing-called-weight-decay-a7cd4bcfccab">article&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>Train a segmentation model on the COCO dataset.&lt;/li>
-&lt;li>Create a Yin &amp;amp; Yang model.&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-12">&lt;a href="https://yanael.io/days/ml/#2020-04-12">2020-04-12&lt;/a>&lt;/h2>
-&lt;p>Continuing learning and training models.&lt;/p>
-&lt;p>I&amp;rsquo;ve read an &lt;a href="https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33">article that summarizes the fastai course&lt;/a>.&lt;/p>
-&lt;p>Datasets:&lt;/p>
-&lt;ul>
-&lt;li>Train: Used to train the model.&lt;/li>
-&lt;li>Validation: Provides an unbiased evaluation while tuning model hyperparameters.&lt;/li>
-&lt;li>Test: Used when the model is fully trained.&lt;/li>
-&lt;/ul>
-&lt;p>In NLP, the first step is training a language model, which is the step of guessing the next word in a sentence.&lt;/p>
-&lt;p>A language model has its own labels.&lt;/p>
-&lt;p>Now we can create a classifier.&lt;/p>
-&lt;p>MSE: Mean Squared Error.
-Always non-negative.&lt;/p>
-&lt;p>Article to understand and choose the last layer activation and loss function.&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What is regularization L1, L2?&lt;/li>
-&lt;li>What is momentum?&lt;/li>
-&lt;/ul>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>Train a model for NLP sentiment analysis.&lt;/li>
-&lt;li>Recreate MSE function.&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-13">&lt;a href="https://yanael.io/days/ml/#2020-04-13">2020-04-13&lt;/a>&lt;/h2>
-&lt;p>I&amp;rsquo;ve explored the batch size and tried to understand how it works. It&amp;rsquo;s related to PyTorch and involves loading data per batch to avoid loading everything into memory, I guess.&lt;/p>
-&lt;p>I&amp;rsquo;ll start lesson 5.&lt;/p>
-&lt;p>Fastai adds two layers at the end:&lt;/p>
-&lt;ul>
-&lt;li>Freeze: Freezes the previous layers.&lt;/li>
-&lt;li>Split the layers into 2 groups with different learning rates.&lt;/li>
-&lt;li>Discriminative learning rate.&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>learn&lt;span style="color:#f92672">.&lt;/span>fit(n_epoch, learning_rate)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Learning rate parameter&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># All layers receive the same learning rate&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1e-3&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># The final layer receives the indicated learning rate. The other layers receive the number divided by 3.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>slice(&lt;span style="color:#ae81ff">1e-3&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># The first layer receives the first value,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># All intermediate layers receive multiplicatively equal spreads,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># The last layer receives the second value.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>slice(&lt;span style="color:#ae81ff">1e-5&lt;/span>, &lt;span style="color:#ae81ff">1e-3&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Add learning rate per group, not per layer.&lt;/p>
-&lt;p>&lt;code>cnn_learner&lt;/code> has 3 layer groups by default.&lt;/p>
-&lt;p>Pre-processing:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f">One hot encoding&lt;/a> converts input to 0 or 1.&lt;/li>
-&lt;li>Matrix product by a one-hot encoding matrix, similar to array lookup, is called embedding.&lt;/li>
-&lt;li>&lt;code>y_range&lt;/code> makes the final activation function a sigmoid.&lt;/li>
-&lt;li>RMSE^2 → MSE&lt;/li>
-&lt;li>PCA: Principal Component Analysis&lt;/li>
-&lt;li>&lt;code>parameters -= learning_rate * parameters.grad&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;em>Matrix multiplications followed by ReLUs, when stacked together, have this amazing mathematical property known as the universal approximation theorem. If you have large enough weight matrices and enough of them, they can solve any arbitrarily complex mathematical function to any arbitrarily high level of accuracy.&lt;/em>&lt;/p>
-&lt;/blockquote>
-&lt;p>Fine-tuning: Based on a trained model, retrain the model to fit our use case.&lt;/p>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>Write a linear function.&lt;/li>
-&lt;li>Calculate RMSE.&lt;/li>
-&lt;/ul>
-&lt;p>Questions:&lt;/p>
-&lt;p>Why use square instead of absolute in the loss function?&lt;/p>
-&lt;p>Okay, it’s called MAE, and it’s used when we don’t care about outliers.&lt;/p>
-&lt;p>&lt;a href="https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3">Loss functions: MSE, MAE, Huber&lt;/a>&lt;/p>
-&lt;p>Another loss function that exists is named Huber.&lt;/p>
-&lt;h2 id="2020-04-15">&lt;a href="https://yanael.io/days/ml/#2020-04-15">2020-04-15&lt;/a>&lt;/h2>
-&lt;p>I want to write the MSE, MAE, and RMSE functions.&lt;/p>
-&lt;p>Clarifying the squaring and square rooting.&lt;/p>
-&lt;p>Squared:&lt;/p>
-&lt;p>$$
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="2020-03-24"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-24"&gt;2020-03-24&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://course19.fast.ai/videos/?lesson=2"&gt;Fast.ai Lesson 2&lt;/a&gt; at &lt;a href="https://youtu.be/ccMHJeQU4Qw?t=5241"&gt;Linear Regression Problem&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Find the parameters to minimize the error. For a regression problem, the error function a.k.a &lt;strong&gt;loss function&lt;/strong&gt; MSE is a common one.&lt;/p&gt;
+&lt;p&gt;Mean Squared Error → MSE, also RMSE → Root Mean Squared Error&lt;/p&gt;
+&lt;p&gt;MSE is the loss, the difference between predictions and the actual number.&lt;/p&gt;
+&lt;h2 id="2020-03-25"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-25"&gt;2020-03-25&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Continue the calculation of the SGD.&lt;/p&gt;
+&lt;p&gt;Create mini batch to don&amp;rsquo;t train on the whole dataset each time before updating the weights.&lt;/p&gt;
+&lt;h2 id="2020-03-26"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-26"&gt;2020-03-26&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Starting &lt;a href="https://course19.fast.ai/videos/?lesson=3"&gt;lesson 3&lt;/a&gt; about data blocks, multi-label, classification, and segmentation.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;thresh&lt;/code&gt; is used in case we have multiple labels.&lt;/p&gt;
+&lt;p&gt;Python &lt;code&gt;partial&lt;/code&gt; is used to create a function with a specific parameter.&lt;/p&gt;
+&lt;p&gt;Use small images to experiment more quicker.&lt;/p&gt;
+&lt;p&gt;Segmentation creates a labialization pixel per pixel.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Difference between online and offline ML
+&lt;ul&gt;
+&lt;li&gt;Offline: Static dataset&lt;/li&gt;
+&lt;li&gt;Online: Continuously train when the data comes in. a.k.a incremental learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-27"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-27"&gt;2020-03-27&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Using progressive resizing to train the model.&lt;/p&gt;
+&lt;p&gt;If underfitting, train longer, train last part reduce learning rate, decrease regularization.&lt;/p&gt;
+&lt;p&gt;U-Net for segmentation training&lt;/p&gt;
+&lt;p&gt;Learning rate should be high at the begging and reduce after. Don&amp;rsquo;t be locked in to find the smallest.&lt;/p&gt;
+&lt;p&gt;After each linear regression use an activation function.&lt;br&gt;
+The sigmoid is not used anymore.&lt;br&gt;
+Mostly used now:&lt;br&gt;
+ReLU: Rectified Linear Unit → ReLU activation&lt;br&gt;
+&lt;code&gt;max(x,0)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://neuralnetworksanddeeplearning.com/chap4.html"&gt;A visual proof that neural nets can compute any function&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6"&gt;Activation Functions in Neural Networks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Imagenet expect 3 channels, if we have only 2 channels we can create a new channel set as 0.&lt;/p&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Practice data block API&lt;/li&gt;
+&lt;li&gt;Multi label classification&lt;/li&gt;
+&lt;li&gt;Segmentation&lt;/li&gt;
+&lt;li&gt;NLP classification&lt;/li&gt;
+&lt;li&gt;Implement MSE&lt;/li&gt;
+&lt;li&gt;Practice ReLU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-29"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-29"&gt;2020-03-29&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Watched the videos of &lt;a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"&gt;3blue1brown - Essence of linear algebra&lt;/a&gt; about linear algebra, vector, linear transformation, matrix multiplication.&lt;/p&gt;
+&lt;p&gt;Now working on fastai and data blocks API.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s the normalization imagenet_stats&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s BatchNorm2d&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s dropout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-03-31"&gt;&lt;a href="https://yanael.io/days/ml/#2020-03-31"&gt;2020-03-31&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Working with Fastai library, and practice the data block API.&lt;/p&gt;
+&lt;p&gt;I read some articles &lt;a href="https://machinelearningmastery.com/linear_algebra_for_machine_learning/"&gt;Basics of Linear Algebra for Machine Learning&lt;/a&gt; super valuable, he advises the top-down approach and prevents mistakes of what beginners do. They learn math too early in the ML journey.&lt;/p&gt;
+&lt;p&gt;ResNet solve the vanishing gradient&lt;/p&gt;
+&lt;p&gt;Article: &lt;a href="https://towardsdatascience.com/deep-convolutional-neural-networks-ccf96f830178"&gt;Deep Convolutional Neural Networks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CNN: Convolutional Neural Network&lt;/p&gt;
+&lt;p&gt;Question:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s a convolution?&lt;br&gt;
+Convolution operation consists on passing a kernel over an input volume.&lt;br&gt;
+Used to capture features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-01"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-01"&gt;2020-04-01&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Want to work with a segmentation dataset, importing this COCO datasets &lt;a href="http://cocodataset.org/"&gt;http://cocodataset.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Train the model.&lt;/p&gt;
+&lt;p&gt;Python division with two slashes to do integer division &lt;code&gt;10//3 = 3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s a mask exactly?&lt;/li&gt;
+&lt;li&gt;How to create a fallback in an image classification? If not detected go to the fallback case, should we implement that post classification based on the minimum score?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s the segmentation used for? Advantage?&lt;/li&gt;
+&lt;li&gt;How to evaluate the memory footprint to guess the batch size?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-02"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-02"&gt;2020-04-02&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I continue to train on CamVid.&lt;/p&gt;
+&lt;p&gt;Question:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What unet is?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-05"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-05"&gt;2020-04-05&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Working on segmentation, based on the camvid tiny dataset.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m exploring the mask and the function to display it. It call an external library and the convert mode is used to display different color based on the value in the image. The value does not represent an RGB value.&lt;/p&gt;
+&lt;p&gt;I check the min value and the max value in the tensor&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;torch&lt;span style="color:#f92672"&gt;.&lt;/span&gt;min(mask&lt;span style="color:#f92672"&gt;.&lt;/span&gt;data)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;torch&lt;span style="color:#f92672"&gt;.&lt;/span&gt;max(mask&lt;span style="color:#f92672"&gt;.&lt;/span&gt;data)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I expect it should match the number of codes I have in my dataset.&lt;/p&gt;
+&lt;p&gt;It will depend on the image, not on all the images we have all the things in the label.
+I will check how many different value I have in my dataset instead min and max.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;len(np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;unique(mask&lt;span style="color:#f92672"&gt;.&lt;/span&gt;data))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now it make sense, I can discover all the things I have in the images based on the mask code.&lt;/p&gt;
+&lt;p&gt;I trained the model, still learning about the learning rate and the plot loss.&lt;/p&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Train a model with one class only&lt;/li&gt;
+&lt;li&gt;Prepare a small dataset with multi classes&lt;/li&gt;
+&lt;li&gt;Train my model on the COCO datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Starting fast.ai lesson 4&lt;/p&gt;
+&lt;p&gt;NLP:
+Legal Text classifier with univeral model fine tuning.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.aclweb.org/anthology/P18-1031.pdf"&gt;Universal Language Model Fine-tuning for Text Classification (paper)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NLP use transfer learning, use pre trained Language model from wikipedia Wikitext.&lt;/p&gt;
+&lt;p&gt;Language model → Specific language model → Classifier&lt;br&gt;
+Self supervised learning&lt;/p&gt;
+&lt;p&gt;Collaborative filtering:&lt;br&gt;
+&lt;a href="https://en.wikipedia.org/wiki/Sparse_matrix"&gt;Sparse matrix&lt;/a&gt; storage&lt;br&gt;
+Cold start problem, to solve use a metadata model&lt;/p&gt;
+&lt;p&gt;Terms:&lt;br&gt;
+&lt;strong&gt;Parameters/weights&lt;/strong&gt; → Number inside the matrices&lt;br&gt;
+&lt;strong&gt;Activations&lt;/strong&gt; → Result of the calculation (Result of matrix multiply or activation function)&lt;br&gt;
+&lt;strong&gt;Layers&lt;/strong&gt; → Each step of the computation&lt;br&gt;
+&lt;strong&gt;Input&lt;/strong&gt; → Entry point&lt;br&gt;
+&lt;strong&gt;Output&lt;/strong&gt; → Result&lt;/p&gt;
+&lt;p&gt;Common to have a sigmoid at the last layer, to have an output between 2 values&lt;/p&gt;
+&lt;p&gt;Loss function compare the result with the last layer.&lt;/p&gt;
+&lt;h2 id="2020-04-06"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-06"&gt;2020-04-06&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Training on the head poses dataset.&lt;/p&gt;
+&lt;p&gt;Data augmentation can help generate more data for the training set.&lt;/p&gt;
+&lt;h2 id="2020-04-08"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-08"&gt;2020-04-08&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Working with tabular data today.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continuous: Represents values without limits, like age.&lt;/li&gt;
+&lt;li&gt;Categorical: Limited to a small set of possibilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For categorical data, we will use embeddings.&lt;/p&gt;
+&lt;p&gt;A processor, similar to transformations in computer vision, will be used, but it&amp;rsquo;s applied beforehand.&lt;/p&gt;
+&lt;p&gt;The validation set should be a contiguous group of items.&lt;/p&gt;
+&lt;h2 id="2020-04-10"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-10"&gt;2020-04-10&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Regarding Collaborative Learning, what is the difference between Embedding NN and Embedding Dot Bias?&lt;/p&gt;
+&lt;p&gt;Will fastai keep the better parameters of the training when we change the learning rate?&lt;/p&gt;
+&lt;p&gt;How are columns selected in CollabDataBunch?&lt;/p&gt;
+&lt;p&gt;What is PCA?&lt;/p&gt;
+&lt;p&gt;Calculate the loss with RMSE (Root Mean Squared Error).&lt;/p&gt;
+&lt;h2 id="2020-04-11"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-11"&gt;2020-04-11&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m watching a &lt;a href="https://www.youtube.com/watch?v=iaSUYvmCekI&amp;amp;list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&amp;amp;index=3"&gt;course from MIT&lt;/a&gt; about computer vision CNNs.&lt;/p&gt;
+&lt;p&gt;Layers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conv&lt;/li&gt;
+&lt;li&gt;Relu&lt;/li&gt;
+&lt;li&gt;MaxPooling: Takes the maximum value in the window&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apply layers to match the depth of the neural network.&lt;/p&gt;
+&lt;p&gt;Convolution:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Applying a window of weights&lt;/li&gt;
+&lt;li&gt;Computing linear combinations&lt;/li&gt;
+&lt;li&gt;Activating with a nonlinear function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Depth: h x w x d&lt;/p&gt;
+&lt;p&gt;Create a feature map.&lt;/p&gt;
+&lt;p&gt;Non-Linear Activation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Applying activation function: ReLU &lt;code&gt;max(0,z)&lt;/code&gt;. Values lower than zero are set to 0; values greater than 0 remain unchanged.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pooling:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Takes the maximum value of the patch, shrinking the image&lt;/li&gt;
+&lt;li&gt;Patch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CNN:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature Learning&lt;/li&gt;
+&lt;li&gt;Classification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tensorflow provides a &lt;a href="http://playground.tensorflow.org/"&gt;playground&lt;/a&gt; tool.&lt;/p&gt;
+&lt;p&gt;The playground is pretty nice; you can better understand the learning rate, see the impact of the activation function, and observe the effects of noise and batch size.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch"&gt;Create a COCO dataset from scratch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What if we don&amp;rsquo;t include an activation layer like ReLU?&lt;/li&gt;
+&lt;li&gt;What is Softmax?&lt;/li&gt;
+&lt;li&gt;What is the &amp;lsquo;wd&amp;rsquo; parameter? Weight Decay is a hyperparameter, as explained in this &lt;a href="https://towardsdatascience.com/this-thing-called-weight-decay-a7cd4bcfccab"&gt;article&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Train a segmentation model on the COCO dataset.&lt;/li&gt;
+&lt;li&gt;Create a Yin &amp;amp; Yang model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-12"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-12"&gt;2020-04-12&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Continuing learning and training models.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve read an &lt;a href="https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33"&gt;article that summarizes the fastai course&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Datasets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Train: Used to train the model.&lt;/li&gt;
+&lt;li&gt;Validation: Provides an unbiased evaluation while tuning model hyperparameters.&lt;/li&gt;
+&lt;li&gt;Test: Used when the model is fully trained.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In NLP, the first step is training a language model, which is the step of guessing the next word in a sentence.&lt;/p&gt;
+&lt;p&gt;A language model has its own labels.&lt;/p&gt;
+&lt;p&gt;Now we can create a classifier.&lt;/p&gt;
+&lt;p&gt;MSE: Mean Squared Error.
+Always non-negative.&lt;/p&gt;
+&lt;p&gt;Article to understand and choose the last layer activation and loss function.&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is regularization L1, L2?&lt;/li&gt;
+&lt;li&gt;What is momentum?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Train a model for NLP sentiment analysis.&lt;/li&gt;
+&lt;li&gt;Recreate MSE function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-13"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-13"&gt;2020-04-13&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve explored the batch size and tried to understand how it works. It&amp;rsquo;s related to PyTorch and involves loading data per batch to avoid loading everything into memory, I guess.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll start lesson 5.&lt;/p&gt;
+&lt;p&gt;Fastai adds two layers at the end:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Freeze: Freezes the previous layers.&lt;/li&gt;
+&lt;li&gt;Split the layers into 2 groups with different learning rates.&lt;/li&gt;
+&lt;li&gt;Discriminative learning rate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;learn&lt;span style="color:#f92672"&gt;.&lt;/span&gt;fit(n_epoch, learning_rate)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Learning rate parameter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# All layers receive the same learning rate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;1e-3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# The final layer receives the indicated learning rate. The other layers receive the number divided by 3.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;slice(&lt;span style="color:#ae81ff"&gt;1e-3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# The first layer receives the first value,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# All intermediate layers receive multiplicatively equal spreads,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# The last layer receives the second value.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;slice(&lt;span style="color:#ae81ff"&gt;1e-5&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1e-3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add learning rate per group, not per layer.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cnn_learner&lt;/code&gt; has 3 layer groups by default.&lt;/p&gt;
+&lt;p&gt;Pre-processing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f"&gt;One hot encoding&lt;/a&gt; converts input to 0 or 1.&lt;/li&gt;
+&lt;li&gt;Matrix product by a one-hot encoding matrix, similar to array lookup, is called embedding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;y_range&lt;/code&gt; makes the final activation function a sigmoid.&lt;/li&gt;
+&lt;li&gt;RMSE^2 → MSE&lt;/li&gt;
+&lt;li&gt;PCA: Principal Component Analysis&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;parameters -= learning_rate * parameters.grad&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Matrix multiplications followed by ReLUs, when stacked together, have this amazing mathematical property known as the universal approximation theorem. If you have large enough weight matrices and enough of them, they can solve any arbitrarily complex mathematical function to any arbitrarily high level of accuracy.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Fine-tuning: Based on a trained model, retrain the model to fit our use case.&lt;/p&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write a linear function.&lt;/li&gt;
+&lt;li&gt;Calculate RMSE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;p&gt;Why use square instead of absolute in the loss function?&lt;/p&gt;
+&lt;p&gt;Okay, it’s called MAE, and it’s used when we don’t care about outliers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3"&gt;Loss functions: MSE, MAE, Huber&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another loss function that exists is named Huber.&lt;/p&gt;
+&lt;h2 id="2020-04-15"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-15"&gt;2020-04-15&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I want to write the MSE, MAE, and RMSE functions.&lt;/p&gt;
+&lt;p&gt;Clarifying the squaring and square rooting.&lt;/p&gt;
+&lt;p&gt;Squared:&lt;/p&gt;
+&lt;p&gt;$$
 x^2
-$$&lt;/p>
-&lt;p>Square root:&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;Square root:&lt;/p&gt;
+&lt;p&gt;$$
 \sqrt{x}
-$$&lt;/p>
-&lt;p>Here are the Python functions for MSE, RMSE, and MAE:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Mean Squared Error (MSE)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">mse&lt;/span>(target, prediction):
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> ((target &lt;span style="color:#f92672">-&lt;/span> prediction) &lt;span style="color:#f92672">**&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>)&lt;span style="color:#f92672">.&lt;/span>mean()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Root Mean Squared Error (RMSE)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">rmse&lt;/span>(target, prediction):
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> math&lt;span style="color:#f92672">.&lt;/span>sqrt(mse(target, prediction))
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Mean Absolute Error (MAE)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">mae&lt;/span>(target, prediction):
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> abs(target &lt;span style="color:#f92672">-&lt;/span> prediction)&lt;span style="color:#f92672">.&lt;/span>mean()
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>These functions calculate the respective errors between the target values and the predictions.&lt;/p>
-&lt;h2 id="2020-04-16">&lt;a href="https://yanael.io/days/ml/#2020-04-16">2020-04-16&lt;/a>&lt;/h2>
-&lt;p>I&amp;rsquo;ll be focusing on writing a neural net from scratch.&lt;/p>
-&lt;p>I have started to rewrite the SGD (Stochastic Gradient Descent) functions. I&amp;rsquo;m following this article: &lt;a href="https://www.charlesbordet.com/fr/gradient-descent/#et-les-maths-dans-tout-ca-">https://www.charlesbordet.com/fr/gradient-descent/#et-les-maths-dans-tout-ca-&lt;/a>. It&amp;rsquo;s well explained.&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What are affine functions?&lt;/li>
-&lt;li>How do you calculate the derivative?&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-17">&lt;a href="https://yanael.io/days/ml/#2020-04-17">2020-04-17&lt;/a>&lt;/h2>
-&lt;p>Google provides a course with a clear path and good explanations:&lt;/p>
-&lt;p>&lt;a href="https://developers.google.com/machine-learning/crash-course/ml-intro?hl=en">Introduction to Machine Learning&lt;/a>&lt;/p>
-&lt;h2 id="2020-04-18">&lt;a href="https://yanael.io/days/ml/#2020-04-18">2020-04-18&lt;/a>&lt;/h2>
-&lt;p>Working with the basic implementation of the functions.&lt;/p>
-&lt;p>&lt;a href="https://developers.google.com/machine-learning/glossary">Machine Learning Glossary&lt;/a>&lt;/p>
-&lt;p>Weight Decay:&lt;/p>
-&lt;p>We want a lot of parameters but less complexity.&lt;/p>
-&lt;p>How to penalize complexity:&lt;/p>
-&lt;p>Sum up the values of the parameters.&lt;/p>
-&lt;p>Some parameters are negative and others positive, so we can sum the squares of the parameters.&lt;/p>
-&lt;p>The problem with that is the number is too big, and the best loss would be to set all the parameters to zero.&lt;/p>
-&lt;p>So, let&amp;rsquo;s multiply that with a number we choose. That number is called wd → weight decay.&lt;/p>
-&lt;p>A good wd is 0.1; the default is 0.01.&lt;/p>
-&lt;p>I have rewritten a matrix multiplication function.&lt;/p>
-&lt;p>The gradient is like the delta between two values.&lt;/p>
-&lt;p>The gradient of an array of values will be the number needed to reach the next one.&lt;/p>
-&lt;p>From 1 to 1.5, the gradient will be 0.5.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>np&lt;span style="color:#f92672">.&lt;/span>gradient([&lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">1.5&lt;/span>])
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Output: array([0.5, 0.5])&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Derivative:&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;Here are the Python functions for MSE, RMSE, and MAE:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Mean Squared Error (MSE)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;mse&lt;/span&gt;(target, prediction):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; ((target &lt;span style="color:#f92672"&gt;-&lt;/span&gt; prediction) &lt;span style="color:#f92672"&gt;**&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;mean()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Root Mean Squared Error (RMSE)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;rmse&lt;/span&gt;(target, prediction):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; math&lt;span style="color:#f92672"&gt;.&lt;/span&gt;sqrt(mse(target, prediction))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Mean Absolute Error (MAE)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;mae&lt;/span&gt;(target, prediction):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; abs(target &lt;span style="color:#f92672"&gt;-&lt;/span&gt; prediction)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;mean()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;These functions calculate the respective errors between the target values and the predictions.&lt;/p&gt;
+&lt;h2 id="2020-04-16"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-16"&gt;2020-04-16&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ll be focusing on writing a neural net from scratch.&lt;/p&gt;
+&lt;p&gt;I have started to rewrite the SGD (Stochastic Gradient Descent) functions. I&amp;rsquo;m following this article: &lt;a href="https://www.charlesbordet.com/fr/gradient-descent/#et-les-maths-dans-tout-ca-"&gt;https://www.charlesbordet.com/fr/gradient-descent/#et-les-maths-dans-tout-ca-&lt;/a&gt;. It&amp;rsquo;s well explained.&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What are affine functions?&lt;/li&gt;
+&lt;li&gt;How do you calculate the derivative?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-17"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-17"&gt;2020-04-17&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Google provides a course with a clear path and good explanations:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developers.google.com/machine-learning/crash-course/ml-intro?hl=en"&gt;Introduction to Machine Learning&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="2020-04-18"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-18"&gt;2020-04-18&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Working with the basic implementation of the functions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developers.google.com/machine-learning/glossary"&gt;Machine Learning Glossary&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Weight Decay:&lt;/p&gt;
+&lt;p&gt;We want a lot of parameters but less complexity.&lt;/p&gt;
+&lt;p&gt;How to penalize complexity:&lt;/p&gt;
+&lt;p&gt;Sum up the values of the parameters.&lt;/p&gt;
+&lt;p&gt;Some parameters are negative and others positive, so we can sum the squares of the parameters.&lt;/p&gt;
+&lt;p&gt;The problem with that is the number is too big, and the best loss would be to set all the parameters to zero.&lt;/p&gt;
+&lt;p&gt;So, let&amp;rsquo;s multiply that with a number we choose. That number is called wd → weight decay.&lt;/p&gt;
+&lt;p&gt;A good wd is 0.1; the default is 0.01.&lt;/p&gt;
+&lt;p&gt;I have rewritten a matrix multiplication function.&lt;/p&gt;
+&lt;p&gt;The gradient is like the delta between two values.&lt;/p&gt;
+&lt;p&gt;The gradient of an array of values will be the number needed to reach the next one.&lt;/p&gt;
+&lt;p&gt;From 1 to 1.5, the gradient will be 0.5.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;np&lt;span style="color:#f92672"&gt;.&lt;/span&gt;gradient([&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1.5&lt;/span&gt;])
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Output: array([0.5, 0.5])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Derivative:&lt;/p&gt;
+&lt;p&gt;$$
 \frac{d}{dx}
-$$&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;$$
 f&amp;rsquo;
-$$&lt;/p>
-&lt;p>Notation of the Gradient of a function:&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;Notation of the Gradient of a function:&lt;/p&gt;
+&lt;p&gt;$$
 \vec \nabla f
-$$&lt;/p>
-&lt;p>To calculate the gradient, we are based on the previous weights.&lt;/p>
-&lt;p>Based on the weight of the previous epoch minus the learning rate multiplied by the derivative of the loss function.&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;To calculate the gradient, we are based on the previous weights.&lt;/p&gt;
+&lt;p&gt;Based on the weight of the previous epoch minus the learning rate multiplied by the derivative of the loss function.&lt;/p&gt;
+&lt;p&gt;$$
 wt = w_{t-1} - lr \times \dfrac{dL}{dw_{t-1}}
-$$&lt;/p>
-&lt;p>dL → Loss&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;dL → Loss&lt;/p&gt;
+&lt;p&gt;$$
 L(x,w) = mse(m(x,y), y) + wd \times \sum w^2
-$$&lt;/p>
-&lt;p>A gradient is a vector; a directional derivative is a scalar.&lt;/p>
-&lt;p>Derivative based on the gradient gets the direction to choose to decrease the cost.&lt;/p>
-&lt;p>An implementation of gradient descent in python: &lt;a href="https://gist.github.com/ajmaradiaga/118f55ef4999318d6640232a73a735bd">gradient_descent.py&lt;/a>&lt;/p>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>How to compute SGD on all the parameters?&lt;/li>
-&lt;li>How to calculate the gradient of a tensor?&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-19">&lt;a href="https://yanael.io/days/ml/#2020-04-19">2020-04-19&lt;/a>&lt;/h2>
-&lt;p>Discussion with Natan about Fastai and the multi-label training on the Planet dataset.&lt;/p>
-&lt;p>&lt;code>lr_find()&lt;/code> restores the weights at the end of the exploration.&lt;/p>
-&lt;p>The threshold should not impact the training, but what if we set the threshold to 1%? Should we get an accuracy of 100%?&lt;/p>
-&lt;p>To know the loss function used, use &lt;code>learn.loss_func&lt;/code>.&lt;/p>
-&lt;p>To launch the debugger in Jupyter, use &lt;code>%debug&lt;/code>.&lt;/p>
-&lt;p>&lt;a href="https://pytorch.org/tutorials/beginner/nn_tutorial.html">Tutorial to implement a NN from scratch&lt;/a>.&lt;/p>
-&lt;p>Logistic regression model → Neural net with one layer and no hidden layer.&lt;/p>
-&lt;p>CrossEntropyLoss is used for problems where the loss can&amp;rsquo;t be calculated between elements.
-If we predict 5 instead of 4, the error is the same as predicting 0 instead of 4.&lt;/p>
-&lt;p>There&amp;rsquo;s no relation between the numbers; we can&amp;rsquo;t calculate the loss between 5 and 4.&lt;/p>
-&lt;p>Gradient of&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;A gradient is a vector; a directional derivative is a scalar.&lt;/p&gt;
+&lt;p&gt;Derivative based on the gradient gets the direction to choose to decrease the cost.&lt;/p&gt;
+&lt;p&gt;An implementation of gradient descent in python: &lt;a href="https://gist.github.com/ajmaradiaga/118f55ef4999318d6640232a73a735bd"&gt;gradient_descent.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to compute SGD on all the parameters?&lt;/li&gt;
+&lt;li&gt;How to calculate the gradient of a tensor?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-19"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-19"&gt;2020-04-19&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Discussion with Natan about Fastai and the multi-label training on the Planet dataset.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lr_find()&lt;/code&gt; restores the weights at the end of the exploration.&lt;/p&gt;
+&lt;p&gt;The threshold should not impact the training, but what if we set the threshold to 1%? Should we get an accuracy of 100%?&lt;/p&gt;
+&lt;p&gt;To know the loss function used, use &lt;code&gt;learn.loss_func&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To launch the debugger in Jupyter, use &lt;code&gt;%debug&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pytorch.org/tutorials/beginner/nn_tutorial.html"&gt;Tutorial to implement a NN from scratch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Logistic regression model → Neural net with one layer and no hidden layer.&lt;/p&gt;
+&lt;p&gt;CrossEntropyLoss is used for problems where the loss can&amp;rsquo;t be calculated between elements.
+If we predict 5 instead of 4, the error is the same as predicting 0 instead of 4.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s no relation between the numbers; we can&amp;rsquo;t calculate the loss between 5 and 4.&lt;/p&gt;
+&lt;p&gt;Gradient of&lt;/p&gt;
+&lt;p&gt;$$
 \frac{d\ (wd \times w^2)}{dw} = 2 \times wd \times w
-$$&lt;/p>
-&lt;p>where wd → constant, w → weights.&lt;/p>
-&lt;p>➖ &lt;strong>Weight Decay:&lt;/strong> Subtracts some constant times the weights every time we do a batch.&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;where wd → constant, w → weights.&lt;/p&gt;
+&lt;p&gt;➖ &lt;strong&gt;Weight Decay:&lt;/strong&gt; Subtracts some constant times the weights every time we do a batch.&lt;/p&gt;
+&lt;p&gt;$$
 wd \times w
-$$&lt;/p>
-&lt;p>➕ &lt;strong>L2 Regularization:&lt;/strong> Adds the square of the weights to the loss function.&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;➕ &lt;strong&gt;L2 Regularization:&lt;/strong&gt; Adds the square of the weights to the loss function.&lt;/p&gt;
+&lt;p&gt;$$
 wd \times w^2
-$$&lt;/p>
-&lt;p>Momentum:&lt;br>
-Exponentially weighted moving average:&lt;/p>
-&lt;p>$$
+$$&lt;/p&gt;
+&lt;p&gt;Momentum:&lt;br&gt;
+Exponentially weighted moving average:&lt;/p&gt;
+&lt;p&gt;$$
 S_t = \beta \times g_t + (1 - \beta) \times S_{t-1}
-$$&lt;/p>
-&lt;p>where ( S_t ) is the step at time t, ( g_t ) is the gradient at time t, and ( \beta ) is the momentum coefficient.&lt;/p>
-&lt;p>SGD with Momentum → Based on the current gradient plus the exponentially weighted moving average of the last few steps.&lt;br>
-SGD Momentum is almost always set to 0.9.&lt;/p>
-&lt;p>RMSPROP:&lt;br>
-If the gradient is consistently very small and not volatile, make bigger jumps.&lt;/p>
-&lt;p>ADAM:&lt;br>
-Combines RMSPROP and Momentum.&lt;/p>
-&lt;p>Cross-Entropy Loss:&lt;br>
-Sum of the one-hot encoded variables times all the activations.&lt;/p>
-&lt;p>Can be solved with an if statement:&lt;br>
-if cat then log(cat_pred) else log(1 - cat_pred).&lt;/p>
-&lt;p>Can be done by a lookup:&lt;br>
-Look up the log of the activation for the correct answer.&lt;br>
-Ensure the prediction sums up to one.&lt;br>
-Using softmax in the last layer: All activations are greater than 0 and less than 1.&lt;/p>
-&lt;p>For single-label multi-class classification, use softmax as the activation function, and cross-entropy as the loss function.&lt;/p>
-&lt;p>Weight Decay, Dropout, and BatchNorm are regularization functions.&lt;/p>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>Implement NN from scratch.&lt;/li>
-&lt;li>Search for accuracy threshold.&lt;/li>
-&lt;li>Write nn.Linear.&lt;/li>
-&lt;/ul>
-&lt;p>Questions:&lt;/p>
-&lt;ul>
-&lt;li>What is momentum?&lt;/li>
-&lt;li>Why do we square in weight decay? Why not just use the absolute value?&lt;/li>
-&lt;li>What is Adam optimization?&lt;/li>
-&lt;li>What are the intercept and slope in a linear model?&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-21">&lt;a href="https://yanael.io/days/ml/#2020-04-21">2020-04-21&lt;/a>&lt;/h2>
-&lt;p>Refreshing my understanding of one-hot encoding and embedding.&lt;/p>
-&lt;p>☝ Affine function → Linear function → Matrices Multiplication&lt;/p>
-&lt;p>Embedding is the use of array lookup instead of using matrix multiply by one hot encoding matrix.&lt;/p>
-&lt;h2 id="2020-04-22">&lt;a href="https://yanael.io/days/ml/#2020-04-22">2020-04-22&lt;/a>&lt;/h2>
-&lt;p>Starting lesson 6 of fastai.&lt;/p>
-&lt;p>&lt;a href="http://platform.ai">platform.ai&lt;/a> To classifier unlabeled images&lt;/p>
-&lt;p>Add more detail about the date, the data are used as one hot embedding by the model.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>add_datepart(train, &lt;span style="color:#e6db74">&amp;#34;Date&amp;#34;&lt;/span>, drop&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">False&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="2020-04-23">&lt;a href="https://yanael.io/days/ml/#2020-04-23">2020-04-23&lt;/a>&lt;/h2>
-&lt;p>I&amp;rsquo;m working with a notebook that utilizes GPU processing.&lt;/p>
-&lt;p>To switch to CPU processing:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>defaults&lt;span style="color:#f92672">.&lt;/span>device &lt;span style="color:#f92672">=&lt;/span> torch&lt;span style="color:#f92672">.&lt;/span>device(&lt;span style="color:#e6db74">&amp;#39;cpu&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fastai Preprocessing:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>Categorify
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>FillMissing
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>&lt;code>FillMissing&lt;/code> replaces missing values with the median.&lt;/li>
-&lt;li>Handling missing values is important in a model.&lt;/li>
-&lt;li>If cardinality isn&amp;rsquo;t too high, convert the feature into a categorical one.&lt;/li>
-&lt;/ul>
-&lt;p>Preventing overfitting with dropout:&lt;/p>
-&lt;ul>
-&lt;li>Implement dropout in both training and testing phases.&lt;/li>
-&lt;li>Also consider using BatchNorm.&lt;/li>
-&lt;/ul>
-&lt;p>Tasks:&lt;/p>
-&lt;ul>
-&lt;li>Create a function for implementing dropout.&lt;/li>
-&lt;/ul>
-&lt;p>Note: When using dropout, it is typically applied during the training phase to prevent overfitting. During the test or evaluation phase, dropout is not used; instead, the full network is utilized.&lt;/p>
-&lt;h2 id="2020-04-25">&lt;a href="https://yanael.io/days/ml/#2020-04-25">2020-04-25&lt;/a>&lt;/h2>
-&lt;p>I&amp;rsquo;m continuing with Lesson 6.&lt;/p>
-&lt;p>&lt;a href="http://setosa.io/ev/image-kernels">Image Kernels&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://medium.com/impactai/cnns-from-different-viewpoints-fab7f52d159c">CNNs from Different Viewpoints&lt;/a>&lt;/p>
-&lt;p>Convolution involves multiplying pixel blocks with a kernel.&lt;/p>
-&lt;p>A kernel can detect various features like top edges, left edges, etc.&lt;/p>
-&lt;p>In the case of Stride 2 convolution, every other pixel is skipped.&lt;/p>
-&lt;p>Average Pooling is another technique used.&lt;/p>
-&lt;p>With Natan, we started a project focusing on NLP. Our goal is to process our conversations on WhatsApp or Messenger and detect the sentiments within them.&lt;/p>
-&lt;p>I imported my WhatsApp messages and performed some cleanup.&lt;/p>
-&lt;p>Now, I&amp;rsquo;ll focus on the first part of NLP. In Natural Language Processing, there are typically 3 parts:&lt;/p>
-&lt;ol>
-&lt;li>Language Model&lt;/li>
-&lt;li>Specific Language Model&lt;/li>
-&lt;li>Classifier&lt;/li>
-&lt;/ol>
-&lt;p>I will work on the Language Model, which will be based on Wikipedia content. Since we want to analyze conversations in French, the language model needs to be in French.&lt;/p>
-&lt;p>The language model&amp;rsquo;s task is to predict the next word in a sentence.
-There&amp;rsquo;s an existing Language Model created from Wikipedia: &lt;a href="https://github.com/piegu/language-models/blob/master/lm2-french.ipynb">https://github.com/piegu/language-models/blob/master/lm2-french.ipynb&lt;/a>&lt;/p>
-&lt;p>In NLP, there are Bidirectional Language Models where predictions can be made both &lt;strong>backward&lt;/strong> and &lt;strong>forward&lt;/strong>.&lt;/p>
-&lt;p>I&amp;rsquo;m figuring out how to load this model into Fastai. I have the weights and need to create a &lt;code>language_model_learner&lt;/code> with them. It seems I need the data - to predict the next word, the model needs something to refer to.&lt;/p>
-&lt;p>The vocab appears to be included in the files, so I&amp;rsquo;m figuring out how to load the weights and vocab without needing the entire dataset, and still be able to use &lt;code>learn.predict&lt;/code>. I might need a corpus; initially, I&amp;rsquo;ll try using the one from Wikipedia.&lt;/p>
-&lt;h2 id="2020-04-26">&lt;a href="https://yanael.io/days/ml/#2020-04-26">2020-04-26&lt;/a>&lt;/h2>
-&lt;p>Continuing with the NLP project, I&amp;rsquo;m researching how NLP is implemented in Fastai, aiming to customize some parts of the workflow with our custom data.&lt;/p>
-&lt;p>Fastai discusses MultiFiT for text classification, a method based on ULMFiT.&lt;/p>
-&lt;p>&lt;a href="https://nlp.fast.ai/">https://nlp.fast.ai/&lt;/a>&lt;/p>
-&lt;p>For our NLP project, we scraped a French website for cinema reviews.&lt;/p>
-&lt;h2 id="2020-04-29">&lt;a href="https://yanael.io/days/ml/#2020-04-29">2020-04-29&lt;/a>&lt;/h2>
-&lt;p>I continue working on our NLP project. There was an issue with the data at some point; I&amp;rsquo;ll check why and try to fix the problem I&amp;rsquo;m encountering with the training of the language model.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/abs/1611.01576">QRNN: Quasi-Recurrent Neural Networks&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="2020-04-30">&lt;a href="https://yanael.io/days/ml/#2020-04-30">2020-04-30&lt;/a>&lt;/h2>
-&lt;p>I&amp;rsquo;m exploring QRNNs and trying to figure out why they&amp;rsquo;re not working on the workstation.&lt;/p>
-&lt;h2 id="next">NeXT&lt;/h2>
-&lt;p>To follow the upcoming days:&lt;/p>
-&lt;p>&lt;form id="form-subscribe"
+$$&lt;/p&gt;
+&lt;p&gt;where ( S_t ) is the step at time t, ( g_t ) is the gradient at time t, and ( \beta ) is the momentum coefficient.&lt;/p&gt;
+&lt;p&gt;SGD with Momentum → Based on the current gradient plus the exponentially weighted moving average of the last few steps.&lt;br&gt;
+SGD Momentum is almost always set to 0.9.&lt;/p&gt;
+&lt;p&gt;RMSPROP:&lt;br&gt;
+If the gradient is consistently very small and not volatile, make bigger jumps.&lt;/p&gt;
+&lt;p&gt;ADAM:&lt;br&gt;
+Combines RMSPROP and Momentum.&lt;/p&gt;
+&lt;p&gt;Cross-Entropy Loss:&lt;br&gt;
+Sum of the one-hot encoded variables times all the activations.&lt;/p&gt;
+&lt;p&gt;Can be solved with an if statement:&lt;br&gt;
+if cat then log(cat_pred) else log(1 - cat_pred).&lt;/p&gt;
+&lt;p&gt;Can be done by a lookup:&lt;br&gt;
+Look up the log of the activation for the correct answer.&lt;br&gt;
+Ensure the prediction sums up to one.&lt;br&gt;
+Using softmax in the last layer: All activations are greater than 0 and less than 1.&lt;/p&gt;
+&lt;p&gt;For single-label multi-class classification, use softmax as the activation function, and cross-entropy as the loss function.&lt;/p&gt;
+&lt;p&gt;Weight Decay, Dropout, and BatchNorm are regularization functions.&lt;/p&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement NN from scratch.&lt;/li&gt;
+&lt;li&gt;Search for accuracy threshold.&lt;/li&gt;
+&lt;li&gt;Write nn.Linear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is momentum?&lt;/li&gt;
+&lt;li&gt;Why do we square in weight decay? Why not just use the absolute value?&lt;/li&gt;
+&lt;li&gt;What is Adam optimization?&lt;/li&gt;
+&lt;li&gt;What are the intercept and slope in a linear model?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-21"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-21"&gt;2020-04-21&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Refreshing my understanding of one-hot encoding and embedding.&lt;/p&gt;
+&lt;p&gt;☝ Affine function → Linear function → Matrices Multiplication&lt;/p&gt;
+&lt;p&gt;Embedding is the use of array lookup instead of using matrix multiply by one hot encoding matrix.&lt;/p&gt;
+&lt;h2 id="2020-04-22"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-22"&gt;2020-04-22&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Starting lesson 6 of fastai.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://platform.ai"&gt;platform.ai&lt;/a&gt; To classifier unlabeled images&lt;/p&gt;
+&lt;p&gt;Add more detail about the date, the data are used as one hot embedding by the model.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;add_datepart(train, &lt;span style="color:#e6db74"&gt;&amp;#34;Date&amp;#34;&lt;/span&gt;, drop&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;False&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="2020-04-23"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-23"&gt;2020-04-23&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m working with a notebook that utilizes GPU processing.&lt;/p&gt;
+&lt;p&gt;To switch to CPU processing:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;defaults&lt;span style="color:#f92672"&gt;.&lt;/span&gt;device &lt;span style="color:#f92672"&gt;=&lt;/span&gt; torch&lt;span style="color:#f92672"&gt;.&lt;/span&gt;device(&lt;span style="color:#e6db74"&gt;&amp;#39;cpu&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Fastai Preprocessing:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Categorify
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;FillMissing
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;FillMissing&lt;/code&gt; replaces missing values with the median.&lt;/li&gt;
+&lt;li&gt;Handling missing values is important in a model.&lt;/li&gt;
+&lt;li&gt;If cardinality isn&amp;rsquo;t too high, convert the feature into a categorical one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Preventing overfitting with dropout:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement dropout in both training and testing phases.&lt;/li&gt;
+&lt;li&gt;Also consider using BatchNorm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a function for implementing dropout.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: When using dropout, it is typically applied during the training phase to prevent overfitting. During the test or evaluation phase, dropout is not used; instead, the full network is utilized.&lt;/p&gt;
+&lt;h2 id="2020-04-25"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-25"&gt;2020-04-25&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m continuing with Lesson 6.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://setosa.io/ev/image-kernels"&gt;Image Kernels&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://medium.com/impactai/cnns-from-different-viewpoints-fab7f52d159c"&gt;CNNs from Different Viewpoints&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Convolution involves multiplying pixel blocks with a kernel.&lt;/p&gt;
+&lt;p&gt;A kernel can detect various features like top edges, left edges, etc.&lt;/p&gt;
+&lt;p&gt;In the case of Stride 2 convolution, every other pixel is skipped.&lt;/p&gt;
+&lt;p&gt;Average Pooling is another technique used.&lt;/p&gt;
+&lt;p&gt;With Natan, we started a project focusing on NLP. Our goal is to process our conversations on WhatsApp or Messenger and detect the sentiments within them.&lt;/p&gt;
+&lt;p&gt;I imported my WhatsApp messages and performed some cleanup.&lt;/p&gt;
+&lt;p&gt;Now, I&amp;rsquo;ll focus on the first part of NLP. In Natural Language Processing, there are typically 3 parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Language Model&lt;/li&gt;
+&lt;li&gt;Specific Language Model&lt;/li&gt;
+&lt;li&gt;Classifier&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I will work on the Language Model, which will be based on Wikipedia content. Since we want to analyze conversations in French, the language model needs to be in French.&lt;/p&gt;
+&lt;p&gt;The language model&amp;rsquo;s task is to predict the next word in a sentence.
+There&amp;rsquo;s an existing Language Model created from Wikipedia: &lt;a href="https://github.com/piegu/language-models/blob/master/lm2-french.ipynb"&gt;https://github.com/piegu/language-models/blob/master/lm2-french.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In NLP, there are Bidirectional Language Models where predictions can be made both &lt;strong&gt;backward&lt;/strong&gt; and &lt;strong&gt;forward&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m figuring out how to load this model into Fastai. I have the weights and need to create a &lt;code&gt;language_model_learner&lt;/code&gt; with them. It seems I need the data - to predict the next word, the model needs something to refer to.&lt;/p&gt;
+&lt;p&gt;The vocab appears to be included in the files, so I&amp;rsquo;m figuring out how to load the weights and vocab without needing the entire dataset, and still be able to use &lt;code&gt;learn.predict&lt;/code&gt;. I might need a corpus; initially, I&amp;rsquo;ll try using the one from Wikipedia.&lt;/p&gt;
+&lt;h2 id="2020-04-26"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-26"&gt;2020-04-26&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Continuing with the NLP project, I&amp;rsquo;m researching how NLP is implemented in Fastai, aiming to customize some parts of the workflow with our custom data.&lt;/p&gt;
+&lt;p&gt;Fastai discusses MultiFiT for text classification, a method based on ULMFiT.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nlp.fast.ai/"&gt;https://nlp.fast.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For our NLP project, we scraped a French website for cinema reviews.&lt;/p&gt;
+&lt;h2 id="2020-04-29"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-29"&gt;2020-04-29&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I continue working on our NLP project. There was an issue with the data at some point; I&amp;rsquo;ll check why and try to fix the problem I&amp;rsquo;m encountering with the training of the language model.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/1611.01576"&gt;QRNN: Quasi-Recurrent Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2020-04-30"&gt;&lt;a href="https://yanael.io/days/ml/#2020-04-30"&gt;2020-04-30&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m exploring QRNNs and trying to figure out why they&amp;rsquo;re not working on the workstation.&lt;/p&gt;
+&lt;h2 id="next"&gt;NeXT&lt;/h2&gt;
+&lt;p&gt;To follow the upcoming days:&lt;/p&gt;
+&lt;p&gt;&lt;form id="form-subscribe"
 action="https://formspree.io/f/mleopdlv"
 method="POST"
->
-&lt;label>Email:&lt;/label>
-&lt;input type="email" name="email" />
-&lt;button id="form-subscribe-button">Subscribe&lt;/button>
-&lt;p id="form-subscribe-status">&lt;/p>
-&lt;/form>
-&lt;script>
+&gt;
+&lt;label&gt;Email:&lt;/label&gt;
+&lt;input type="email" name="email" /&gt;
+&lt;button id="form-subscribe-button"&gt;Subscribe&lt;/button&gt;
+&lt;p id="form-subscribe-status"&gt;&lt;/p&gt;
+&lt;/form&gt;
+&lt;script&gt;
 window.addEventListener("DOMContentLoaded",function(){var e=document.getElementById("form-subscribe"),n=document.getElementById("form-subscribe-button"),t=document.getElementById("form-subscribe-status");function s(){e.reset(),n.style="display: none ",t.innerHTML="Thanks!"}function o(){t.innerHTML="Oops! There was a problem."}e.addEventListener("submit",function(t){t.preventDefault();var n=new FormData(e);ajax(e.method,e.action,n,s,o)})});function ajax(e,t,n,s,o){var i=new XMLHttpRequest;i.open(e,t),i.setRequestHeader("Accept","application/json"),i.onreadystatechange=function(){if(i.readyState!==XMLHttpRequest.DONE)return;i.status===200?s(i.response,i.responseType):o(i.status,i.response,i.responseType)},i.send(n)}
-&lt;/script>
-&lt;/p></description></item></channel></rss>
+&lt;/script&gt;
+&lt;/p&gt;</description></item></channel></rss>

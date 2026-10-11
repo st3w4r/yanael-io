@@ -140,9 +140,102 @@ pre code {
 
 pre {
     overflow: auto;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
     font-size: 14px;
-    line-height: 140%;
-    padding: 1em;
+    line-height: 1.6;
+    padding: 20px;
+    tab-size: 4;
+}
+
+pre code {
+    font: inherit;
+}
+
+.highlight {
+    --code-bg: #eff1f5;
+    --code-border: #ccd0da;
+    --code-text: #4c4f69;
+    --code-muted: #6c6f85;
+    --code-name: #1e66f5;
+    position: relative;
+    margin: 24px 0;
+    border: 1px solid var(--code-border);
+    border-radius: 8px;
+    background: var(--code-bg);
+    color: var(--code-text);
+    overflow: hidden;
+}
+
+.highlight pre {
+    margin: 0;
+    color: inherit;
+    background: transparent;
+}
+
+.highlight:has(.code-toolbar) pre {
+    padding-top: 24px;
+}
+
+.code-toolbar {
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--code-muted);
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.code-language {
+    letter-spacing: .04em;
+}
+
+.code-copy {
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.code-copy:hover,
+.code-copy:focus-visible {
+    color: var(--code-text);
+    border-color: var(--code-border);
+}
+
+.code-copy:focus-visible {
+    outline: 2px solid var(--code-name);
+    outline-offset: 2px;
+}
+
+.code-copy-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+    .highlight {
+        --code-bg: #2e3440;
+        --code-border: #434c5e;
+        --code-text: #d8dee9;
+        --code-muted: #a0b3c6;
+        --code-name: #80d4ed;
+    }
+}
+
+@media (max-width: 768px) {
+    .highlight pre { padding: 16px; }
 }
 
 

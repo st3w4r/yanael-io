@@ -1,7 +1,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+    {{ with resources.Get "css/highlight.css" | minify }}
+        {{ .Content | safeCSS }}
+    {{ end }}
     {{ with resources.Get "css/style.css" | minify}}
         {{ .Content | safeCSS }}
     {{ end }}
 </style>
+
+{{ with resources.Get "js/code-blocks.js" | minify | fingerprint }}
+<script src="{{ .RelPermalink }}" defer></script>
+{{ end }}

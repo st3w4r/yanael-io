@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Yanaël Barbier"
 theme = "neutral"
 
+[markup.highlight]
+    noClasses = false
+
 [params]
     subtitle = "I build my path with an export!"
     description = "I build my path with an export!"

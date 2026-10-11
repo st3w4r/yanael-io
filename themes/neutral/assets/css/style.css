@@ -131,6 +131,13 @@ nav span {
     }
 }
 
+/* Keep iOS Safari from enlarging individual syntax-highlighted lines. */
+pre,
+pre code {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
 pre {
     overflow: auto;
     font-size: 14px;
